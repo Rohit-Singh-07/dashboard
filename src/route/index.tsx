@@ -17,6 +17,7 @@ import MyTable from "../pages/Form/tableDetails";
 import Settings from "../pages/Settings";
 import Tables from "../pages/Tables";
 import Buttons from "../pages/UiElements/Buttons";
+import ScheduleWebinar from '../pages/ScheduleWebinar/ScheduleWebinar';
 
 const routespath=[
     {
@@ -92,6 +93,13 @@ const routespath=[
     {
         path:"/take-test/:testId",
         component:<TakeTest/>,
+        restricted:true
+
+    },
+
+    {
+        path:"/schedule-webinar",
+        component:<ScheduleWebinar/>,
         restricted:true
 
     },

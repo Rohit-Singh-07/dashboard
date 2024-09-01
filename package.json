@@ -14,14 +14,17 @@
     "url": "https://tailadmin.com"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
     "@headlessui/react": "^1.7.18",
     "@types/firebase": "^3.2.1",
+    "antd": "^5.20.3",
     "apexcharts": "^3.41.0",
     "firebase": "^9.10.0",
     "flatpickr": "^4.6.13",
     "headlessui": "^0.0.0",
     "jsvectormap": "^1.5.3",
     "match-sorter": "^6.3.1",
+    "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
